@@ -1,0 +1,258 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Public/Documents/Sync/Daten/_gitHub/spread_on_contact/docs.fx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": ".nojekyll",
+      "output": {
+        "resource": {
+          "relative_path": ".nojekyll"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/firstExample.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/firstExample.html",
+          "hash": "7C7sow8FwHyNnyfJosqkBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/chartZero.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/chartZero.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/firstChart.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/firstChart.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/herdImmunity.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/herdImmunity.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/initialSettings.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/initialSettings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/moveProbability.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/moveProbability.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/randomMove.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/randomMove.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/secondExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/secondExample.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/startButton.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/startButton.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_content/images/thirdExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "_content/images/thirdExample.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/index.html",
+          "hash": "GgE2BikFrJYOW+H97ruQIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/secondExample.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/secondExample.html",
+          "hash": "hUY4y7Q07GzlnodKYPcTWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "_content/thirdExample.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/thirdExample.html",
+          "hash": "4wQnGb5rqmT4d6Ep5JMfsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "_content/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "_content/toc.html",
+          "hash": "k3LbJLLKM3AGvNBfDiLpAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "dLTUN82cbzFEUyX5cz2bsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ky9zjGRyoMEEYFf1w23B1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 5
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
