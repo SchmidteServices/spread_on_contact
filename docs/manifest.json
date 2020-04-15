@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Public/Documents/Sync/Daten/_gitHub/spread_on_contact/docs.fx",
+  "source_base_path": "C:/Users/Public/Documents/Sync/Daten/_gitHub.io/spread_on_contact/docs.fx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -29,7 +29,7 @@
       "output": {
         ".html": {
           "relative_path": "_content/firstExample.html",
-          "hash": "7C7sow8FwHyNnyfJosqkBw=="
+          "hash": "YBNT4ElqkfHGgTTjS7fpEg=="
         }
       },
       "is_incremental": false,
@@ -140,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "_content/index.html",
-          "hash": "GgE2BikFrJYOW+H97ruQIQ=="
+          "hash": "tMCdxIROSgKE9Gfu1qVltw=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 5,
-          "skipped_file_count": 5
+          "skipped_file_count": 3
         }
       }
     },

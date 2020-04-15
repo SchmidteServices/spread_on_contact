@@ -4,19 +4,17 @@ After the first run you'll get a chart like shown below. With the default parame
 
 ![FirstChart](images/firstChart.png)
 
-The default setup simulates the situation when people simply ignore that Corona virus is serious (no preventive measures have been taken). So we let people move/behave as normal. Almost all people will get the infection and all this will happen very fast. Note: This was the initial approach in Great Britain and in the Netherlands. Both have stopped it. Interesting to see how this compares to our [second example](secondExample.md), later.
+The default setup simulates the situation when people simply ignore that the virus is serious (no preventive measures have been taken). So we let people move/behave as normal. Almost all people will get the infection and all this will happen very fast. Note: This was the initial approach in Great Britain and in the Netherlands. Both have stopped it. Interesting to see how this compares to our [second example](secondExample.md), later.
 
 ### Changes in the latest version
 
-Lately, I heard about the 60% to 70% rate of infection: "*Coronavirus: 60% of UK population need to become infected so country can build 'herd immunity', government's chief scientist says*" (ref. [Independent](https://www.independent.co.uk/news/health/coronavirus-herd-immunity-uk-nhs-outbreak-pandemic-government-a9399101.html)). This phenomenon is called "[herd immunity](https://www.technologyreview.com/s/615375/what-is-herd-immunity-and-can-it-stop-the-coronavirus/)", but the numbers when this will happen differ.
+Lately, I heard about the 60% to 70% rate of infection: "*C19-Virus: 60% of UK population need to become infected so country can build 'herd immunity', government's chief scientist says*" (ref. [Independent](https://www.independent.co.uk/news/health/coronavirus-herd-immunity-uk-nhs-outbreak-pandemic-government-a9399101.html)). This phenomenon is called "[herd immunity](https://www.technologyreview.com/s/615375/what-is-herd-immunity-and-can-it-stop-the-coronavirus/)", but the numbers when this will happen differ.
 
 I have implemented to 60% to 70% of the population has got the infect:
 
 ![Herd immunity](./images/herdIm munity.png)
 
 The diagrams shows this *herd immunity* effect with a lighter red line when 60% of the population is sick together with a solid blue line. After the 70% limit has been reached, the chart will become again a bit lighter to illustrate the worst lies behind.
-
-
 
 ## The chart explained
 

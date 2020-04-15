@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Corona (COVID-19) outbreak simulation </title>
+    <title>Spread on Contact </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Corona (COVID-19) outbreak simulation ">
+    <meta name="title" content="Spread on Contact ">
     <meta name="generator" content="docfx 2.48.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,19 +77,17 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="corona-covid-19-outbreak-simulation">Corona (COVID-19) outbreak simulation</h1>
+<h1 id="spread-on-contact">Spread on Contact</h1>
 
-<p>A couple of days ago, I wanted to understand better how the Corona virus outbreak evolves under different conditions. Does it really help to stay at home? Would it help to have a vaccination? Or would it be more effective to quarantine infected people as early as possible (early warning system)? Which impact has the density of population etc.</p>
-<blockquote>
-<p>One important thing:</p>
-<p><strong>Share this app faster than Corona and we will succeed!</strong></p>
-</blockquote>
-<p>I invented a simple model to simulate the Corona outbreak and how it infects people. My first model is called <em>Random Moves</em>. I have other models in mind ... let's see how this app evolves.</p>
+<p>A couple of days ago, I wanted to understand better how a virus outbreak evolves under different conditions. Does it really help to stay at home? Would it help to have a vaccination? Or would it be more efficient to quarantine infected people as early as possible (early warning system)? And: which impact has the density of population in certain cities?</p>
+<p>I invented a simple &quot;spread by contact&quot; model to simulate a virus and how an infection my spread in a population. My first model is called <em>Random Moves</em>. I have other models in mind ... let's see how this app evolves.</p>
 <p>If you're interested in some more background information, you may read about &quot;<a href="https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56">the hammer and the dance</a>&quot;.</p>
 <h2 id="random-moves-model">Random Moves Model</h2>
 <p>The idea is simple:</p>
 <blockquote>
-<p>Take a playground of a certain size, for example, 1000x1000. Drop a number of people on this area. Infect some of them with COVID-19, and let them <strong>randomly move</strong> , meet and infect each other.</p>
+<p>Take a playground of a certain size, for example, 1000x1000.
+Drop a number of people on this area.
+&quot;Infect&quot; some of them and let them <strong>randomly move</strong> , meet and &quot;share&quot; the infect.</p>
 </blockquote>
 <p>Simple as that!</p>
 <p><img src="images/initialSettings.png" alt="initialSettings"></p>
@@ -97,12 +95,12 @@
 <p>According to <em>Wikipedia</em>, <a href="https://en.wikipedia.org/wiki/New_York_City">New York Citys</a> density is:  Density= 10715/km², <a href="https://en.wikipedia.org/wiki/Milan">Milan</a> is: 7700/km².  Find the city of your choice ... . For now, leave the 4600, click on the <code>Start</code> button and see how it evolves...</p>
 <p><img src="images/startButton.png" alt="Start Button"></p>
 <blockquote>
-<p>[TIP]: It is better to turn you mobile to Landscape Mode. Please be patient, as it takes some seconds to load the chart. There is no slider - the chart will move itself to show you progress over time.</p>
+<p>[TIP]: It is better to turn you mobile to <em>Landscape Mode</em>. Please be patient, as it takes some seconds to load the chart. There is no slider - the chart will move itself to show you progress over time.</p>
 </blockquote>
+<p>Now it is up to you ...</p>
 <p><a href="firstExample.html">Analyze the results of your first simulation.</a></p>
 <p><a href="secondExample.html">Let people move less - the second example.</a></p>
 <p><a href="thirdExample.html">Early recognition - the third example</a>.</p>
-<p>Now it is up to you ...</p>
 <p>You may change the <code>Infection Probabability</code> which determines the probability a healthy person will get infected if it comes closer than <code>Infection Distance</code> to an infected, sick person. Infection Probability when persons &quot;meet&quot;.</p>
 <h3 id="vaccination">Vaccination</h3>
 <p>If we had a vaccination, for example, the <code>infection probablity</code> would go down to a certain limit, e.g. 30%. This is due to the fact<u>s</u>: a) not all people will get vaccination and b) vaccination will not prevent all people from getting infected.</p>
@@ -114,7 +112,7 @@
 <p>I was thinking, that especially other movement models may change the results of the simulation. For example, <em>magnetic points</em>. The idea behind is, to implement some points on the map where people tend to go to more often, for example, supermarkets, U-Bahn, etc. This was to simulate these 'meetings points' a bit better.</p>
 <p>Another model could be to simulate the &quot;stay at home&quot; approach a bit better. Lock a certain number of people in a room - let these groups moves less etc.</p>
 <p>You see, there are many more ideas...</p>
-<p>Enjoy it, anyways, <strong>MarkusS</strong>
+<p>Enjoy it, <strong>MarkusS</strong>
 (Markus Schmidt, Germany)</p>
 </article>
           </div>
@@ -123,6 +121,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SchmidteServices/spread_on_contact/blob/master/docs.fx/_content/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
